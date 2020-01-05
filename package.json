@@ -1,0 +1,23 @@
+{
+  "name": "swapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js", 
+    "heroku-postbuild": "webpack -p" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardohralejandro/swapp.git"
+  },
+  "author": "Eduardo Hernandez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduardohralejandro/swapp/issues"
+  },
+  "homepage": "https://github.com/eduardohralejandro/swapp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

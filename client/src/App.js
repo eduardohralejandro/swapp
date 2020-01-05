@@ -3,7 +3,7 @@ import React, { Component } from "react";
 const App = () => {
   return (
     <div>
-      super app
+      <h1>super new appddd</h1>
     </div>
   );
 };
